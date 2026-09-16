@@ -43,7 +43,7 @@ function display_scoreboard(board, changedId){
 }
 
 function medalFor(rank){
-  return rank === 1 ? " \uD83E\uDD47" : (rank === 2 ? " \uD83E\uDD48" : (rank === 3 ? " \uD83E\uDD49" : ""));
+  return rank === 1 ? " 🥇" : (rank === 2 ? " 🥈" : (rank === 3 ? " 🥉" : ""));
 }
 
 function buildRow(team){
